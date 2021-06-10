@@ -1,0 +1,174 @@
+body {
+	    background-color: #c4e8ff;
+		color: #505050;
+}
+ul {
+	margin:0px;
+	padding:0px;
+}
+li {
+	list-style: none;
+}
+
+.wrap {
+	width: 1226px;
+	margin:0 auto;
+	
+	
+}
+.head-top {
+	line-height: 50px;
+	height:50px;
+}
+.head-top-search {
+	height:50px;
+	line-height: 50px;
+	margin-left:10px;
+	
+}
+.head-top-search-input {
+	margin-right: 10px;
+}
+.head-top-search-btn {
+	margin-right: 10px;
+}
+.search-input {
+	display: inline;
+	margin-top:8px;
+	width:300px !important;
+}
+.head-nav {
+	height:40px;
+	
+}
+.head-nav-ul {
+	height:40px;
+	line-height: 40px;
+	float:left;
+	width:100%;
+	background-color: #2dbb55;
+	margin:0px !important;
+	
+}
+.head-nav-ul >li {
+	float:left;
+	list-style: none;
+	margin:0px 20px;
+	font-weight: 600;
+	
+}
+.head-nav-ul >li >a {
+	color:#fff;
+}
+.head-nav-ul >li >a:hover {
+	cursor: pointer;
+}
+.main {
+	width:100%;
+	border:1px solid #fff;
+	
+}
+	    .swiper-container {		/*设置幻灯片的大小*/
+		     
+		      height: 300px;
+width:1225px;
+		    }
+		    .swiper-container img{		/*设置幻灯片图片*/
+		    	width: 100%;
+		    }
+		    .swiper-slide {
+		      text-align: center;
+		      font-size: 18px;
+		      background: #fff;
+		
+		      /* Center slide text vertically */
+		      display: -webkit-box;
+		      display: -ms-flexbox;
+		      display: -webkit-flex;
+		      display: flex;
+		      -webkit-box-pack: center;
+		      -ms-flex-pack: center;
+		      -webkit-justify-content: center;
+		      justify-content: center;
+		      -webkit-box-align: center;
+		      -ms-flex-align: center;
+		      -webkit-align-items: center;
+		      align-items: center;
+		    }
+		  .hot-jd {
+			  width:100%;
+			  height:500px;
+			  
+		  }
+		  .hot-jd-title {
+			  height:50px;
+			  line-height: 50px;
+			  font-weight: 600;
+			  border-bottom:1px solid green;
+		  }
+		  .hot-jd-container {
+			  height:450px;
+			  overflow: auto;
+			  margin:10px;
+		  }
+		  .hot-jd-container-tab {
+			  width:100px;
+		  }
+		  .hot-jd-container-right {
+			  width:calc(100% - 100px);
+		  }
+		  .jdflul >li {
+			  cursor: pointer;
+			  text-align: center;
+		  }
+		  .jdflul >li:first-child {
+			  background: #007AFF;
+			  color:#fff;
+		  }
+		  active {
+			  background: #007AFF;
+			  color:#fff;
+		  }
+		  .newstitle:hover {
+			  cursor: pointer;
+			  border-bottom: 1px solid blue;
+		  }
+		  
+.footer {
+	height:80px;
+	
+}
+.footer-nav-ul {
+	height:40px;
+	line-height: 40px;
+	float:left;
+	width:100%;
+	margin:0px !important;
+}
+.footer-nav-ul >li {
+	float:left;
+	list-style: none;
+	margin:0px 20px;
+	font-weight: 600;
+	
+}
+.footer-nav-ul >li >a {
+	color:black;
+}
+.footer-nav-ul >li >a:hover {
+	cursor: pointer;
+}
+.footer-bah {
+	text-align:center;
+}
+
+.fl {
+	float:left;
+}
+.fr {
+	float:right;
+}
+.clear {
+	clear:both;
+}
+
